@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <h1>registrarse </h1>
+         <ol>
+             <li><b><h2>Información Personal</h2></b></li><br>
+                 <label>
+                     <b>Nombre Completo:</b>
+                         <input type="text" name="Nombre">
+                 </label><br>
+                 <br><label>
+                     <b>Nombre de usuario:</b>
+                         <input type="text" name="Nombre">
+                 </label><br>
+                 <br><label>
+                     <b> Correo Electrónico:</b>
+                         <input type="email" name="email">
+                 </label><br>
+                 <br><label>
+                     <b>Fecha de Nacimoiento:</b>
+                         <input type="date" name="Nacimoiento">
+                             <br>Debes tener al menos 13 años para registrarte.
+                 </label><br>
+                 <br><label>
+                     <b>Género:</b>
+                         <select name="Género">
+                             <option value="0">Masculino</option>
+                             <option value="1">Femenino</option>
+                             <option value="2">No binario</option>
+                             <option value="3">Prefiero no decirlo</option>
+                         </select>
+                 </label>
+             <li><h2><b>Información de Seguridad</b></h2></li><br>
+                     <label>
+                         <b>Contraseña:</b>
+                             <input type="password" name="Contraseña">
+                                 <br>La contraseña debe tener al menos 8 caracteres, incluir una mayúscula, 
+                                 <br>un número y un carácter especial.
+                     </label> <br>
+                     <br><label>
+                         <b>Confirmar Contraseña:</b>
+                             <input type="password" name="contraseña">
+                             <br>Vuelve a escribir tu contraseña.
+                     </label>
+             <li><h2><b>Preferencias de la Cuenta</b></h2></li>
+                     <br><label>
+                         ¿Te gustaría recibir notificaciones por correo electrónico?
+                             <select name="notificaciones">
+                                 <option value="0">Si</option>
+                                 <option value="1">No</option>
+                             </select>
+                     </label><br>
+                     <br><label>
+                         Quieres que tu perfil sea público o privado?
+                             <select name="perfil">
+                                 <option value="0">público</option> 
+                                 <option value="1">privado</option>
+                             </select>
+                     </label>
+             <li><h2><b>Aceptación de Términos y Condiciones</b></h2></li>
+                     <label>
+                         He leído y acepto los [Términos y Condiciones] y [Política de Privacidad]
+                             <input type="checkbox" name="checkbox">
+                     </label><br>
+                     <br><button type="submit">
+                         registrarte
+                     </button>
+    </ol>
+</body>
+</html>

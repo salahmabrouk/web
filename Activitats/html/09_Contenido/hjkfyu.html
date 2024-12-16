@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!-- Navegador entre páginas -->
+     <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="ficha-disco.html">Ficha del Disco</a></li>
+        </ul>
+    </nav>
+
+    <!-- Migas de pan -->
+    <nav aria-label="breadcrumb">
+        <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li>Listado de Discos de Jazz</li>
+        </ol>
+    </nav>
+
+    <h1>Listado de Discos de Jazz</h1>
+
+    <!-- Buscador -->
+    <form action="index.html" method="get">
+        <input type="text" name="search" placeholder="Buscar disco..." />
+        <button type="submit">Buscar</button>
+    </form>
+
+    <ul>
+        <li><a href="ficha-disco.html?id=1">Kind of Blue - Miles Davis</a></li>
+        <li><a href="ficha-disco.html?id=2">A Love Supreme - John Coltrane</a></li>
+        <li><a href="ficha-disco.html?id=3">Time Out - Dave Brubeck</a></li>
+        <li><a href="ficha-disco.html?id=4">The Shape of Jazz to Come - Ornette Coleman</a></li>
+    </ul>
+</body>
+</html>

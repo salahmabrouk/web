@@ -10,33 +10,34 @@
     <img src="Smartphones-gama-alta-2023-1000x664.jpg" alt="smartphones"height="300" width="500"/>><br>
 
     <select name="Marca">
-        <option value="" aria-label="marca" disabled selected>Selecciona la marca:</option>
+        <option value="marca" aria-label="marca" disabled selected>Selecciona la marca:</option>
    
-        <option value="Samsung"></option>
-        <option value="Apple"></option>
-        <option value="Xiaomi"></option>
-        <option value="Huawei"></option>
-        <option value="OnePlus"></option>
-        <option value="Sony"></option>
-        <option value="LG"></option>
-        <option value="Motorola"></option>
-        <option value="Realme"></option>
-        <option value="Oppo"></option>
-    </select>
+        <option value="0">Samsung</option>
+        <option value="1">Apple</option>
+        <option value="2">Xiaomi</option>
+        <option value="3">Huawei</option>
+        <option value="4">OnePlus</option>
+        <option value="5">Sony</option>
+        <option value="6">LG</option>
+        <option value="7">Motorola</option>
+        <option value="8">Realme</option>
+        <option value="9">Oppo</option>
+    </select><br>
 
 
-    <br><label><b>Rango de Precio:</b>
-        <input list="price-range" type="text" name="price-range">
-    </label>
-    <datalist id="price-range">
-        <option value="100-300"></option>
-        <option value="300-500"></option>
-        <option value="500-700"></option>
-        <option value="700-1000"></option>
-        <option value="Más de 1000 €"></option>
-    </datalist>
+    <select name="Marca">
+        <option value="Precio" aria-label="Precio" disabled selected>Rango de Precio:</option>
+   
+        <option value="0">100-300</option>
+        <option value="1">300-500</option>
+        <option value="2">500-700</option>
+        <option value="3">700-1000</option>
+        <option value="4">Más de 1000 €</option>
+    </select><br>
+
+
     
-    <button onclick="sear">Buscar</button>
+   <br> <button onclick="sear">Buscar</button>
        
         
 </body>

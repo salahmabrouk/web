@@ -8,31 +8,37 @@
 <body>
     <h1><b> Buscador de smartphones</b></h1>
     <img src="Smartphones-gama-alta-2023-1000x664.jpg" alt="smartphones"height="300" width="500"/>><br>
-    <br><label><b>¿Cómo se llama este cuadro?:</b>
-        <input list="Cómo-se-llama-este-cuadro" type="text" name="Cómo-se-llama">
-    </label>
-    <datalist id="Cómo-se-llama-este-cuadro">
-        <option value="Las Meninas "></option>
-        <option value="El jardín de las delicias"></option>
-        <option value="La rendición de Breda"></option>
-        <option value="La maja desnuda"></option>
-        <option value="La Anunciación"></option>
-    </datalist>
-    <div class="form-container">
-        <h2>Buscador de Smartphones</h2>
+
+    <select name="Marca">
+        <option value="marca" aria-label="marca" disabled selected>Selecciona la marca:</option>
+   
+        <option value="0">Samsung</option>
+        <option value="1">Apple</option>
+        <option value="2">Xiaomi</option>
+        <option value="3">Huawei</option>
+        <option value="4">OnePlus</option>
+        <option value="5">Sony</option>
+        <option value="6">LG</option>
+        <option value="7">Motorola</option>
+        <option value="8">Realme</option>
+        <option value="9">Oppo</option>
+    </select><br>
+
+
+    <select name="Marca">
+        <option value="Precio" aria-label="Precio" disabled selected>Rango de Precio:</option>
+   
+        <option value="0">100-300</option>
+        <option value="1">300-500</option>
+        <option value="2">500-700</option>
+        <option value="3">700-1000</option>
+        <option value="4">Más de 1000 €</option>
+    </select><br>
+
+
     
-        <label for="brand">Selecciona la marca:</label>
-        <input type="text" id="brand" placeholder="Escribe la marca...">
-    
-        <label for="price-range">Selecciona el rango de precio:</label>
-        <select id="price-range">
-            <option value="">Elige un rango</option>
-            <option value="100-300">100 - 300 €</option>
-            <option value="300-500">300 - 500 €</option>
-            <option value="500-700">500 - 700 €</option>
-            <option value="700-1000">700 - 1000 €</option>
-            <option value="1000+">Más de 1000 €</option>
-        </select>
-    
+   <br> <button onclick="sear">Buscar</button>
+       
+        
 </body>
 </html>

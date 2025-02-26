@@ -1,0 +1,35 @@
+<style>
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: #000;
+}
+
+#sol {
+width: 100px;
+height: 100px;
+background-color: yellow;
+border-radius: 50%;
+}
+
+#luna {
+width: 100px;
+height: 100px;
+background-color: rgb(232, 130, 130);
+border-radius: 50%;
+position: absolute;
+animation: eclipse 5s infinite;
+}
+
+@keyframes eclipse {
+0%, 100% {
+transform: translateX(0);
+}
+50% {
+ transform: translateX(100px);
+}
+}
+
+</style>

@@ -1,0 +1,55 @@
+<style>
+.clock {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(214, 245, 15);
+    border-radius: 50%;
+    margin: 50px auto;
+    background: white;
+}
+
+.hand {
+    position: absolute;
+    bottom: 50%; 
+    left: 50%;
+    width: 1px;
+    height: 40%;
+    background: rgb(5, 225, 46);
+    transform-origin: 50% 100%; 
+}
+
+.hour-hand {
+    height: 25%; 
+    animation: hourSpin 43200s linear infinite; 
+}
+
+.minute-hand {
+    height: 35%; 
+    animation: minuteSpin 3600s linear infinite; /
+}
+
+.second-hand {
+    height: 40%; 
+    background: rgb(89, 10, 247);
+    animation: secondSpin 60s linear infinite; 
+}
+
+
+@keyframes secondSpin {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+@keyframes minuteSpin {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+@keyframes hourSpin {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+
+</style>

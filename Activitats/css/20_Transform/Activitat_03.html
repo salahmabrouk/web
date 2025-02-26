@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Círculos </title>
+    <style>
+        .circle-container {
+        position: relative;
+        }
+        
+        .circle {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: absolute;
+        transition: left 0.5s ease;
+        }
+        
+        .red {
+        background-color: red;
+        }
+        
+        .blue {
+        background-color: rgba(0, 0, 255, 0.5); 
+        left: 120px; 
+        }
+        
+        .blue:hover {
+        left: 51px; 
+        }
+        </style>
+</head>
+<body>
+    <div class="circle-container">
+        <div class="circle red"></div>
+         <div class="circle blue"></div>
+        </div>
+</body>
+</html>

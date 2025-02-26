@@ -1,0 +1,19 @@
+<style>
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+}
+
+th, td {
+    border: 2px solid #2809ec; 
+    padding: 8px;
+    text-align: left; 
+}
+
+@media screen and (max-width: 600px) {
+    table {
+        overflow-x: auto; 
+        display: block; 
+    }
+}
+</style>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .faq-container {
+        font-family: Arial, sans-serif;
+        }
+        
+        .faq-item {
+        border-bottom: 1px solid #201cf8;
+        }
+        
+        .faq-question {
+        padding: 20px;
+        position: relative;
+        cursor: pointer;
+        }
+        
+        .faq-question::after {
+        content: '+';
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        }
+        
+        .faq-item.open .faq-question::after {
+        content: '-';
+        }
+        
+        .faq-answer {
+        padding: 0 20px 20px;
+        }
+        
+        .faq-item.open .faq-answer {
+        display: block;
+        }
+        
+        </style>
+</head>
+<body>
+    <div class="faq-container">
+        <div class="faq-item">
+        <div class="faq-question">¿Qué métodos de pago se ofrecen?</div>
+        </div>
+        <div class="faq-item open">
+        <div class="faq-question">¿Cómo puedo cambiarme a un plan diferente?</div>
+        <div class="faq-answer">
+        Puedes cambiarte a un nuevo plan en cualquier momento; para ello, entra en la página de Facturación de tu cuenta. Selecciona el plan a que deseas cambiarte y podrás empezar a usar las nuevas funciones de inmediato.
+        </div>
+        </div>
+        <div class="faq-item">
+        <div class="faq-question">¿Puedo optar por comprar créditos?</div>
+        </div>
+        <div class="faq-item">
+        <div class="faq-question">¿Hay precios especiales para quienes envían grandes volúmenes de correos electrónicos?</div>
+        </div>
+        <div class="faq-item">
+        <div class="faq-question">¿Qué sucede si llego al límite de envíos o contactos?</div>
+        </div>
+        </div>
+</body>
+</html>

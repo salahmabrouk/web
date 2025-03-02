@@ -14,8 +14,7 @@
 
 
 
- .wrapper,
- .portfolio {
+ .wrapper {
     width: 100vw;
     height: 100vh;
     background-color: #191c32;
@@ -87,7 +86,7 @@ span {
 .main img {
     width: 350px;
     border: 7px solid aqua;
-    height: 550px;
+    height: 450px;
     width: 400px;
     z-index: 1;
 }
@@ -114,6 +113,7 @@ span {
     color: #191c32;
 }
 
+
 .divider {
     height: 4px;
     width: 60px;
@@ -123,33 +123,191 @@ span {
 }
 
 .about p {
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 
 }
 
-.portfolio-headings {
+.portafolio {
+    width: 100vw;
+    background-color: #191c32;
+}
+
+.portafolio-headings {
     width: 100vw;
     padding: 5em;
+    color: #fff;
 }
-.portfolio-headings h2 {
+
+.portafolio-headings h2 {
     font-size: 2.5em;
-}
-.portfolio .container {
-    width: 80vw;
-    height: 80vh;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
+
 }
 
-
+.portafolio .container {
+  width: 80vw;
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
 .card {
-    width: 300px;
+    width: 600px;
+    background-color: rgb(37, 27, 127);
+    margin-right: 40em;
+
+
 }
 
-.card_img {
+.card-img-html {
     width: 100%;
-    height: 150px;
-    background-image: url(img/html-logo.png);
+    height: 170px;
+    background-image: url(img/Html.jpg);
     background-size: cover;
+}
+
+.card-title-html {
+    padding: 20px;
+    color: chocolate;
+}
+
+.card-activitas-html-links {
+  
+  justify-content: space-evenly;
+  display: flex;
+  
+}
+
+.card-activitas-html-links a {
+    color: #fff;
+    text-decoration: none;
+}
+.card-activitas-html-links i {
+    font-size: 1.5em;
+}
+
+.card-activitats-html {
+    display: flex;
+    align-self: center;
+    margin: 1em;
+
+}
+
+.card-activitats-html {
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);
+    -moz-box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);
+    box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);;  
+}
+.card-activitats-html:hover {
+    background-color: azure;
+    box-shadow: none;
+}
+
+.card-activitas-html-links i {
+font-size: 1.5em;
+}
+
+.card-activitats-html a {
+    text-decoration: none;
+    color: #191c32;
+}
+.card .card-activitats-html {
+    margin: 0 auto ;
+    margin: 1em;
+    width: 90%;
+    justify-content: center;
+   
+}
+.activitats-html-content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+-----
+
+.card-css {
+    width: 400px;
+    background-color: rgb(37, 27, 127);
+    margin-left: 40em;
+
+}
+
+
+.card-img-css {
+    width: 100%;
+    height: 170px;
+    background-image: url(img/css.PNG);
+    background-size: cover;
+}
+
+.card-title-css {
+    padding: 20px;
+    color: chocolate;
+}
+
+.card-activitas-css-links {
+  
+  justify-content: space-evenly;
+  display: flex;
+  
+}
+
+.card-activitas-css-links a {
+    color: #fff;
+    text-decoration: none;
+}
+.card-activitas-css-links i {
+    font-size: 1.5em;
+}
+
+.card-activitats-cs {
+    display: flex;
+    align-self: center;
+    margin: 1em;
+
+}
+
+.card-activitats-css {
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);
+    -moz-box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);
+    box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);;  
+}
+.card-activitats-css:hover {
+    background-color: azure;
+    box-shadow: none;
+}
+
+.card-activitas-css-links i {
+font-size: 1.5em;
+}
+
+.card-activitats-css a {
+    text-decoration: none;
+    color: #191c32;
+}
+.card .card-activitats-css {
+    margin: 0 auto ;
+    margin: 1em;
+    width: 90%;
+    justify-content: center;
+   
+}
+.activitats-css-content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1em;
 }

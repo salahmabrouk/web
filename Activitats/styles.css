@@ -151,11 +151,9 @@ span {
   justify-content: center;
 }
 .card {
-    width: 600px;
+    width: 400px;
     background-color: rgb(37, 27, 127);
-    margin-right: 40em;
-
-
+    margin-right: 5em;
 }
 
 .card-img-html {
@@ -201,22 +199,19 @@ span {
     cursor: pointer;
     -webkit-box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);
     -moz-box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);
-    box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);;  
+    box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);  
 }
 .card-activitats-html:hover {
     background-color: azure;
     box-shadow: none;
 }
 
-.card-activitas-html-links i {
-font-size: 1.5em;
-}
 
 .card-activitats-html a {
     text-decoration: none;
     color: #191c32;
 }
-.card .card-activitats-html {
+.card-activitats-html {
     margin: 0 auto ;
     margin: 1em;
     width: 90%;
@@ -230,51 +225,42 @@ font-size: 1.5em;
     margin-top: 1em;
 }
 
------
-
-.card-css {
-    width: 400px;
-    background-color: rgb(37, 27, 127);
-    margin-left: 40em;
-
-}
 
 
-.card-img-css {
+
+.card-img {
     width: 100%;
     height: 170px;
     background-image: url(img/css.PNG);
     background-size: cover;
 }
 
-.card-title-css {
+.card-title {
     padding: 20px;
     color: chocolate;
 }
 
 .card-activitas-css-links {
-  
-  justify-content: space-evenly;
-  display: flex;
-  
+    justify-content: space-evenly;
+    display: flex;
 }
 
 .card-activitas-css-links a {
     color: #fff;
     text-decoration: none;
 }
+
 .card-activitas-css-links i {
     font-size: 1.5em;
 }
 
-.card-activitats-cs {
+.card-activitats {
     display: flex;
     align-self: center;
     margin: 1em;
-
 }
 
-.card-activitats-css {
+.card-activitats {
     padding: 10px 20px;
     background-color: aqua;
     border: none;
@@ -283,29 +269,25 @@ font-size: 1.5em;
     cursor: pointer;
     -webkit-box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);
     -moz-box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);
-    box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);;  
+    box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);
 }
-.card-activitats-css:hover {
+.card-activitats:hover {
     background-color: azure;
     box-shadow: none;
 }
 
-.card-activitas-css-links i {
-font-size: 1.5em;
-}
-
-.card-activitats-css a {
+.card-activitats a {
     text-decoration: none;
     color: #191c32;
 }
-.card .card-activitats-css {
-    margin: 0 auto ;
+.card-activitats {
+    margin: 0 auto;
     margin: 1em;
     width: 90%;
     justify-content: center;
-   
 }
-.activitats-css-content {
+
+.activitats-css {
     display: flex;
     width: 100%;
     justify-content: center;

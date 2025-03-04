@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Péndulo Animado</title>
+    <style>
+        body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #ecf8c3;
+        }
+        
+        .pendulo{
+        width: 20px;
+        height: 200px;
+        background-color: black;
+        border-radius: 10px 10px 50% 50%;
+        position: absolute;
+        top: 50px;
+        transform-origin: top;
+        animation: swing 2s infinite ease-in-out;
+        }
+        
+        @keyframes swing {
+        0% { transform: rotate(-45deg); }
+        50% { transform: rotate(45deg); }
+        100% { transform: rotate(-45deg); }
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="pendulo"></div>
+</body>
+</html>

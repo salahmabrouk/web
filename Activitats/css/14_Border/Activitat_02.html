@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagen con Borde Personalizado</title>
+    <style>
+        .bordered-image-container {
+        border: 4px dashed hsl(39, 100%, 50%);
+        border-radius: 15px; 
+        padding: 8px; 
+        background: #FFA500; 
+        display: inline-block; 
+        margin: 20px; 
+        }
+          
+        .bordered-image-container img {
+        display: block; 
+        border-radius: 8px; 
+        }
+        </style>
+</head>
+<body>
+    <div class="bordered-image-container">
+        <img src="image.png" alt="Imagen con borde" />
+        </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+@import url(https://fonts.google.com/specimen/Montserrat?query=mont);
+
+
+
+.container {
+    background-color: #191c32;
+    color: #fff;
+}
+.brand {
+    margin: 1em;
+    font-size: 1.5em;
+}
+.brand span {
+    color: aqua;
+}
+
+
+.btn-act {
+    padding: 5px 10px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background-color: aqua;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 2px 4px 12px -5px rgba(102,231,200,0.69);
+}
+
+.btn-act:hover {
+    background-color: #fff;
+    box-shadow: none;
+}
+.btn-act a{
+text-decoration: none;
+    color: #191c32;
+}
+.container ul{
+    font-size: 1.5em;
+}

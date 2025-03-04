@@ -1,0 +1,55 @@
+<style>
+
+body, html {
+    text-align: right;
+ 
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.offer {
+    background-color: hsl(80, 1%, 45%);
+    margin-bottom: 30px;
+    
+}
+
+.offer p {
+    color: hsl(120, 4%, 5%);
+    font-size: 14px;
+   
+}
+
+h1 {
+    font-size: 48px;
+    text-transform: lowercase;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.register-btn {
+    background-color: #e247ed;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    position: sticky;
+}
+
+.register-btn:hover {
+    background-color: #ef2a2a;
+}
+
+
+</style>

@@ -84,9 +84,9 @@ span {
 
 
 .main img {
-    width: 350px;
+    width: 300px;
     border: 7px solid aqua;
-    height: 450px;
+    height: 500px;
     width: 400px;
     z-index: 1;
 }
@@ -94,12 +94,13 @@ span {
 .about{
      display: grid;
      grid-template-columns: repeat(10,1fr);
-     width: 100vw;
+     width: 80vw;
      align-items: center;
 }
 .about img {
     width: 100%;
     grid-column: 1/5;
+    border: 7px solid aqua;
 }
 
 

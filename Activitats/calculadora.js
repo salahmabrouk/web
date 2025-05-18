@@ -22,7 +22,6 @@ botones.forEach(boton => {
                 pantalla.textContent = 'Error';
                 operacion = '';
             }
-<<<<<<< HEAD
         } else {
             if (valor === ',') {
                 // Solo permitir un punto por número
@@ -41,16 +40,3 @@ botones.forEach(boton => {
         }
     });
 });
-=======
-            return;
-        }
-
-        if ( pantalla .textContent === "0" || pantalla.textContent === "Error!") {
-            pantalla.textContent = botonApretado;
-        } else{
-            pantalla.textContent += botonApretado;
-        }
-        
-    })
-})
->>>>>>> 1fb7a495a4cb37d3b120ac6b0a81af2e210fa156

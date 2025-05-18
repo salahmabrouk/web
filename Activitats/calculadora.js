@@ -1,30 +1,47 @@
-const pantalla = document.querySelector(".pantalla");
-const botones = document.querySelectorAll(".btn");
+const pantalla = document.querySelector('.pantalla');
+const botones = document.querySelectorAll('button');
+
+let operacion = '';
 
 botones.forEach(boton => {
-    boton.addEventListener("click", () => {
-        const botonApretado = boton.textContent;
+    boton.addEventListener('click', () => {
+        const valor = boton.textContent;
 
-        if (boton.id === "c") {
-            pantalla.textContent = "0";
-            return;
-        }
-
-        if (boton.id === "borrar") {
-            if (pantalla.textContent.length === 1 || pantalla.textContent === "Error!") {
-                pantalla.textContent = "0";
-            } else {
-                pantalla.textContent = pantalla.textContent.slice(0, -1);
-            }
-            return;
-        }
-
-        if (boton.id === "igual") {
+        if (boton.id === 'netejar') {
+            operacion = '';
+            pantalla.textContent = '0';
+        } else if (boton.id === 'borrar') {
+            operacion = operacion.slice(0, -1);
+            pantalla.textContent = operacion || '0';
+        } else if (boton.id === 'igual') {
             try {
-                pantalla.textContent = eval(pantalla.textContent);
+                const resultado = eval(operacion);
+                pantalla.textContent = resultado;
+                operacion = resultado.toString();
             } catch {
-                pantalla.textContent = "Error!";
+                pantalla.textContent = 'Error';
+                operacion = '';
             }
+<<<<<<< HEAD
+        } else {
+            if (valor === ',') {
+                // Solo permitir un punto por número
+                const partes = operacion.split(/[\+\-\*\/]/);
+                if (partes[partes.length - 1].includes('.')) return;
+                operacion += '.';
+            } else {
+                // Evitar operadores dobles
+                if (['+', '-', '*', '/'].includes(valor) && ['+', '-', '*', '/'].includes(operacion.slice(-1))) {
+                    operacion = operacion.slice(0, -1);
+                }
+                operacion += valor;
+            }
+
+            pantalla.textContent = operacion;
+        }
+    });
+});
+=======
             return;
         }
 
@@ -36,3 +53,4 @@ botones.forEach(boton => {
         
     })
 })
+>>>>>>> 1fb7a495a4cb37d3b120ac6b0a81af2e210fa156

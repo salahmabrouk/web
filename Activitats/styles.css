@@ -294,6 +294,77 @@ span {
     margin-top: 1em;
 }
 
+
+
+
+
+
+.card-img-js {
+    width: 100%;
+    height: 170px;
+    background-image: url(img/JS.png);
+    background-size: cover;
+}
+
+.card-title-js {
+    padding: 20px;
+    color: chocolate;
+}
+
+.card-activitas-js-links {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.card-activitas-js-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.card-activitas-js-links i {
+    font-size: 1.5em;
+}
+
+.card-activitats-js {
+    display: flex;
+    align-self: center;
+    margin: 1em;
+}
+
+.card-activitats-js {
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);
+    -moz-box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);
+    box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);
+}
+.card-activitats-js:hover {
+    background-color: azure;
+    box-shadow: none;
+}
+
+.card-activitats-js a {
+    text-decoration: none;
+    color: #191c32;
+}
+.card-activitats-js {
+    margin: 0 auto;
+    margin: 1em;
+    width: 90%;
+    justify-content: center;
+}
+
+.activitats-js-content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1em;
+}
+
 .color {
     background-color: rgb(255, 255, 255);
 }

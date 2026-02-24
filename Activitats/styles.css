@@ -15,8 +15,8 @@
 
 
  .wrapper {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    min-height: 100vh;
     background-color: #191c32;
     color: #fff;
 }
@@ -509,4 +509,108 @@ font-size: 1em;
     justify-content: space-evenly;
     width: 300px;
     margin-top: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main {
+        grid-template-columns: 1fr;
+        text-align: center;
+        height: auto;
+    }
+
+    .main img {
+        width: 250px;
+        height: auto;
+    }
+
+    .about {
+        grid-template-columns: 1fr;
+        width: 100%;
+        text-align: center;
+    }
+
+    .about img,
+    .about-info {
+        grid-column: 1;
+    }
+
+    .portafolio .container {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .card {
+        width: 90%;
+        margin: 1em 0;
+    }
+
+    .cv {
+        width: 90%;
+        margin: 2em auto;
+    }
+
+    .contact-form,
+    .form {
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .main {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .portafolio .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+    }
+
+    .card {
+        margin: 1em;
+    }
+
+    .cv {
+        margin: 3em auto;
+    }
 }
